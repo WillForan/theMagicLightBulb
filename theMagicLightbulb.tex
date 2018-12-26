@@ -1,0 +1,127 @@
+\RequirePackage{graphicx}
+
+
+\documentclass[extrafontsizes,20pt]{memoir}
+\usepackage[
+    paperwidth=6.875in, paperheight=6.875in,
+    left=.5in, right=.5in,
+     top=.5in, bottom=.5in]{geometry}
+
+% for inserting new image
+\newcommand\img[1]{\begin{center}\vspace*{\fill}\includegraphics[width=.9\textwidth,height=.9\textheight,keepaspectratio]{img/#1}\vspace*{\fill}\end{center}}
+% empty page
+%\newcommand\emptypage{\begin{frame}\end{frame}}
+\newcommand\emptypage{\null\newpage}
+
+\usepackage{epstopdf}
+\usepackage[utf8]{inputenc}
+%\pdfvariable imageresolution 420
+\pdfpkresolution=420
+%\pdfoptionpdfminorversion=5
+%\setbeamertemplate{background canvas}{\begin{tikzpicture}\node[opacity=.1]{\includegraphics[width=\paperwidth]{example-image.pdf}};\end{tikzpicture}}
+ 
+% san sarif default
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{The Magic Light bulb}
+\author{Will Foran}
+\date{Dec 24 2018}
+\pagenumbering{gobble} % no page numbers
+
+ 
+\begin{document}
+% cover
+\newpage
+\img{00}
+
+% dedication, copyright
+\newpage
+\small
+To the noble gnome of electricity, the unsung hero of this and many other stories.
+\vfill
+\begin{footnotesize}
+\noindent\textcopyright{} 2018  \\
+Foran Legion --- Mid Atlantic, \\
+Pittsburgh, PA \\
+\end{footnotesize} 
+
+\emptypage{}
+\emptypage{}
+\emptypage{}
+\emptypage{}
+\emptypage{}
+
+\newpage
+%\frametitle{Sample frame title}
+The perfect soft yellow glow symmetrical illuminates the land of a magical kingdom.
+\img{01}
+When the sun is down or when clouds are thick, the light's warmth fills the land.
+
+\newpage
+Of all the lights in the royal house, the source of this, 
+two bulbs in two sockets hanging above the stove from the hood, are preferred most.
+\img{02}
+Eventually, after years of switching on and switching off, neither filament can be called on to shine!
+
+\newpage
+Emily, the pixie queen, sad and concerned, reaches out to them. 
+Both filaments light brighter than ever before as the touched bulb explodes!
+\img{03}
+   {\small
+      We know now what Emily has yet to discover:\\
+      \indent one bulb sacrificed itself to harness and transfer the magic pixie touch to the other, resurrecting it.
+   }
+
+\newpage
+Besieged by grief, Emily conscripted the royal court's lower maintenance gremlin to restore her beloved fixture. 
+\img{04}
+
+\newpage
+Will sets out on his task by first appropriating the bulb of a neighboring lamp. This new light, while brilliant in the lamp, does not shine along side the other now magic bulb.
+\img{05}
+Curious, Will tries the bulb from a different fixture with the same results.
+
+\newpage
+Now with a sure theory, he pairs the bulbs to their opposite socket, confident that the socket was damaged by the explosion. But in the would-be-broken socket, the magic bulb radiates.
+\begin{center}\vspace*{\fill}\includegraphics[height=.5\textheight,keepaspectratio]{img/06.png}\vspace*{\fill}\end{center}
+In any configuration, always the magic bulb and only the magic bulb shines. And if the magic bulb isn't connected, there is no light.
+
+\newpage
+This is not a situation the royal court's lower maintenance department can handle.
+Will signals the high noble gnome of electricity from a far away land.
+\img{07}
+Pat, the noble gnome, is amused and sends Will an instrument to measure the resistance of light bulbs and power provided to sockets.
+
+\newpage
+Will measures all the bulbs and he checks all the sockets. When all the bulbs read 0 Ohms and the sockets report sufficient voltage, the gremlin and gnome have a conclusion.\\
+
+\noindent\textbf{\large The bulb is magic.}
+\vspace*{\fill}
+\begin{center}\includegraphics[height=.5\textheight,keepaspectratio]{img/08.png}\end{center}
+\vspace*{\fill}
+
+\newpage
+%How does one pair an ordinary bulb with a magic one? Will must answer this before reporting back to the queen.
+Guided only by trail and error, the gremlin set out to interchange every bulb in the house until the magic bulb would take no more.
+\img{09}
+
+\newpage
+``I broke the magic bulb.'' Will cried in correspondence with the gnome in a far away land. But Pat, patient and phlegmatic, calmly prompted the gremlin: ``Try again.'' 
+
+\img{10}
+
+\newpage
+The alarm was premature, the magic bulb resumed after a small adjustment. \\
+\img{11}
+After some time and many attempts, the magic bulb took a mate and shared the magic. The kitchen again basked in a warm glow. And the queen was happy.
+
+
+\emptypage{}
+\emptypage{}
+\emptypage{}
+\emptypage{}
+\emptypage{}
+\emptypage{}
+
+\end{document}
+
